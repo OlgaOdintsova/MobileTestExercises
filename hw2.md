@@ -13,3 +13,4 @@ In reality, I do not have a working Android device
 ## 4. What should be improved/changed in existing test code? Why, for what?
 Hardcoded values, Thread.sleep, Absolute paths. Name of the test should have sense and tell what feature is tested. Capabilities should be moved to property file.
 The structure of the project is far from ideal. No descriptions of all (class, metod). We don't test something.
+

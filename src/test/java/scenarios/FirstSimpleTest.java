@@ -13,7 +13,7 @@ public class FirstSimpleTest extends DriverSetUp{
         prepareAndroidWeb();
     }
 
-    //@Test(description = "This simple test just click on button 'Add contact'")
+    @Test(description = "This simple test just click on button 'Add contact'")
     public void simplestTest(){
         String app_package_name = "com.example.android.contactmanager:id/";
         By add_btn = By.id(app_package_name + "addContactButton");

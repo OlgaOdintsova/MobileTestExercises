@@ -1,6 +1,7 @@
 package scenarios;
 
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.remote.MobileCapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.io.File;
@@ -42,6 +43,6 @@ public class DriverSetUp {
         capabilities.setCapability("browserName", "Chrome");
 
         // Init driver for local Appium server with capabilities have been set
-        driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+        driver = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities);
     }
 }
